@@ -1,0 +1,34 @@
+{
+  "name": "react_app",
+  "version": "1.0.0",
+  "description": "Default react app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "built": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kovar95/react_app.git"
+  },
+  "author": "kovar95",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kovar95/react_app/issues"
+  },
+  "homepage": "https://github.com/kovar95/react_app#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "css-loader": "^3.4.2",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.8.3"
+  }
+}
