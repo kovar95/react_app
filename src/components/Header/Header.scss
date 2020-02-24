@@ -1,0 +1,21 @@
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: gray;
+	padding: 15px;
+	&.black {
+		background-color:black;
+		color: white;
+	}
+
+	&.gray {
+		background-color:gray;
+	}
+}
+
+.logo {
+	width: 50px;
+}
+
