@@ -9,6 +9,7 @@ const presets = [
         safari: "11.1",
       },
     },
+    "@babel/plugin-proposal-class-properties",
   ],
 ];
 
